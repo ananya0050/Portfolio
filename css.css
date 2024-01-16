@@ -8,12 +8,14 @@ body{
 #heading{
     font-size:150%;
     /*text-align: center;*/
+    align-items: baseline;
     font-weight: bolder;
     padding:0px;
 }
 .menus{
     justify-content: space-evenly;
     display: flex;
+    align-items: baseline;
 }
 .menu-links {
     position: absolute;
@@ -24,6 +26,9 @@ body{
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+}
+.active{
+    font-size:18px;
 }
 .menu {
     position: relative;
@@ -45,6 +50,7 @@ body{
 .fa-lg {
     font-size: 1.5em;
     line-height: 3em;
+    margin-top:12px;
     vertical-align: -.075em;
 }
 .img{
@@ -74,6 +80,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    margin-top:30px;
 }
 }
 .list>*{
@@ -238,7 +245,7 @@ a{
     display: flex;
     flex-direction:column;
     justify-content: center;
-
+    margin-bottom:150px;
 }
 .get-head{
     color:white;
@@ -250,6 +257,7 @@ a{
 .about-head{
     color:gray;
     margin-top:5px;
+    margin-bottom: 1.5px;
     align-self: center;
 }
 .myimage{
@@ -263,22 +271,6 @@ a{
     font-size:20px;
     margin-block-start: 1em;
     margin-block-end: 1em;
-}
-.experiencebox{
-    border:3.5px solid white;
-    padding:5px;
-    height:250px;
-    width:250px;
-    border-radius:50px;
-    align-items: center;
-    margin-right: 25px;
-    margin-left: 25px;
-}
-.head1{
-    font-size:26px;
-    color:white;
-    font-weight:600;
-    padding-left: 3px;
     align-self: center;
 }
 .align{
@@ -286,26 +278,6 @@ a{
     flex-direction: row;
     padding-top: 10px;
     padding-left: 25px;
-}
-.fa-award{
-    font-size: 35px;
-}
-.fa-users{
-    font-size: 35px;
-}
-
-.experience{
-    color:gray;
-    font-size:30px;
-    font-weight: 400;
-    padding-left: 25px;
-}
-.box{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin:25px;
-    margin-right: 25px;
 }
 .program{
     font-size:30px;
@@ -331,11 +303,147 @@ a{
     font-weight:600;
     padding-left: 3px;
     align-self: center;
-    margin-top:5px;
+    margin-top:0.5px;
 }
 .about-me{
     font-size:12px;
     margin-block-start:0px;
     margin-block-end: 2em;
-
+}
+.box{
+    align-items: baseline;
+    display:flex;
+    flex-direction:row;
+    margin-top:125px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.qualification_data{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.qualification_data2{
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.qualification_calendar{
+    color:gray;
+}
+.qualification_subtitle{
+    margin-bottom:15px;
+    margin-top:-15px;
+}
+.qualification_line{
+    display:flex;
+}
+.qualification_rounder{
+    display:flex;
+    width: 12px;
+    height: 12px;
+    align-items: center;
+    background-color: orange;
+    border-radius: 50%
+}
+.line {
+    display: flex;
+    width: 3px;
+    height: 120px;
+    background-color: orange;
+    margin: 0 auto;
+}
+.qualibox{
+    display:flex;
+    flex-direction:column;
+    margin-left:255px;
+    padding-right:206px;
+    color:orange;
+}  
+.qualibox2{
+    display:flex;
+    flex-direction:column;
+    margin-left: 220px;
+    padding-right: 400px;
+    color:orange;
+} 
+.qualibox3{
+    display:flex;
+    flex-direction:column;
+    margin-left: 250px;
+    padding-right: 370px;
+    color:orange;
+} 
+.contactbox{
+    margin-top:125px;
+   display: flex;
+   justify-content: center;
+}
+.logo1{
+    display:flex;
+    flex-direction: row;
+    margin-right:50px;
+}
+.logo2{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:15px;
+    margin-left:50px;
+}
+.mail{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.set{
+    display:flex;
+    flex-direction: column;
+    margin-left:10px;
+}
+.hd{
+    margin:0px;
+}
+.fa-location-dot{
+    margin-left:0px;
+    margin-top:0px;
+    margin-right:0px;
+    align-items: baseline;
+    height:125px;
+}
+.footer{
+    background-color:#3E3232;
+    color:white;
+}
+.footer__container{
+    margin-left:310.6px;
+    margin-right: 290.6px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.fotter__title{
+    margin-bottom:2px;
+}
+.footer__bg{
+    padding-top:42px;
+    padding-bottom:58px;
+}
+.footer__copy{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footer__social{
+    font-size:1.25rem;
+    color:white;
+    margin-right:1.5rem;
+}
+.footer__subtitle{
+    margin-top:0px;
+}
+.grid{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.ner{
+    margin-right:300px;
 }
