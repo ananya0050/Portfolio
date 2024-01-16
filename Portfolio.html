@@ -11,6 +11,7 @@
 </head>
 <body>
     <header>
+        <section id="Home">
         <nav class="navbar">
             <div class="menus">
             <i class="fa-solid fa-laptop fa-lg" style="color: #ffffff;"></i>
@@ -19,10 +20,16 @@
             <div class="menu">
                 <ul class="list">
                     <li>
+                        <a href="#Home" class="active" onclick="toggleMenu()">Home</a>
+                    </li>
+                    <li>
                         <a href="#about" class="active" onclick="toggleMenu()">About</a>
                     </li>
                     <li>
-                        <a href="#experience" class="active" onclick="toggleMenu()">Experience</a>
+                        <a href="#education" class="active" onclick="toggleMenu()">Education</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="active" onclick="toggleMenu()">Skills</a>
                     </li>
                     <li>
                         <a href="#contact" class="active" onclick="toggleMenu()">Contact</a>
@@ -31,6 +38,7 @@
             </div>
         </nav>
     </header>
+    <section id="home">
     <div class="me">
         <center><img src="myphoto.jpg" alt="middle" class="img"></center>
         <p class="me-id">Hello!</p>
@@ -45,39 +53,88 @@
             </a>
         </div>
     </div>
-    
+    </section>
     <section id="about">
         <div class="container2">
             <h1 class="get-head">Get To Know More</h1>
             <h4 class="about-head">About Me</h4>
-            <p class="aboutme">
-                I am passionate Frontend Web Developer. I have skills in creating websites.<br>I am enthuiastic about coding. I am highly engage in Artificial Intelligence.
-            </p>
             <img src="Photo.jpg" class="myimage">
+            <p class="aboutme">
+                Proficient in Frontend Web Development. I have skills in creating websites.<br>I am enthuiastic about coding.Skilled in HTML,CSS,JavaScript and eager<br>to learn new technologies. I am highly engage in Artificial Intelligence.
+            </p>
+    </section>
 
-            <div class="box">
-                <div class="experiencebox">
-                    <div class="align">
-                    <i class="fa-solid fa-award" style="color: #fcfcfd;"></i>
-                    <h2 class="head1">Experience</h2>
-                    </div>
-                    <p class="experience">Frontend Web Developer</p>
+    <section id="education"> 
+        <center>
+        <h1 class="head2">Qualification</h1>   
+        <h4 class="about-head">My Personal Jpurney</h4>
+        </center>
+        <div class="box">
+            <i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i>
+            <h1 class="educationhead">Education</h1>
+        </div>
+        <div class="qualification_data">
+            <div class="qualibox">
+                <h2>B.Tech (CSE)</h2>
+                <h5 class="qualification_subtitle">Galgotias College of Engineering & Technology</h5>
+                <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days" style="color: #ffffff;"></i>
+                    2022-2026
                 </div>
-
-                <div class="experiencebox">
-                    <div class="align">
-                        <i class="fa-solid fa-users" style="color: #fcfcfc;"></i>
-                    <h2 class="head1">Education</h2>
-                    </div>
-                    <p class="experience">B.Tech <br>Bachelors<br> Degree</p>
-                </div>
+            </div>
+            <div>
+                <center>
+                <span class="qualification_rounder"></span>
+                </center>
+                <span class="line"></span>
+            </div>
+            <div>
 
             </div>
         </div>
-        
+
+        <div class="qualification_data2">
+            <div>
+                
+            </div>
+            <div>
+                <center>
+                <span class="qualification_rounder"></span>
+                </center>
+                <span class="line"></span>
+            </div>
+            <div class="qualibox2">
+                <h2>Class 12th</h2>
+                <h5 class="qualification_subtitle">S.R.G.M.Academy</h5>
+                <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days" style="color: #ffffff;"></i>
+                    2020-2021
+                </div>
+            </div>
+        </div>
+
+        <div class="qualification_data">
+            <div class="qualibox3">
+                <h2>Class 10th</h2>
+                <h5 class="qualification_subtitle">S.R.G.M.Academy</h5>
+                <div class="qualification_calendar">
+                    <i class="fa-solid fa-calendar-days" style="color: #ffffff;"></i>
+                    2019-2020
+                </div>
+            </div>
+            <div>
+                <center>
+                <span class="qualification_rounder"></span>
+                </center>
+                <span class="line"></span>
+            </div>
+            <div>
+
+            </div>
+        </div>
     </section>
 
-    <section id="experience">
+    <section id="skills">
         <div class="container2">
             <h4 class="about-head">Explore My</h4>
             <h1 class="head2">Experience</h1>
@@ -140,6 +197,60 @@
             </center>
         </div>
     </section>
+
+    <section id="contact">
+        <center>
+        <h1 class="head2">Contact</h1>   
+        <h4 class="about-head">Get in touch</h4>
+        </center>
+        <div class="contactbox">
+            <div class="logo1">
+                <i class="fa-regular fa-envelope" style="color: #f58f19;"></i> 
+                <div class="set">
+                    <h3 class="hd">Email</h3>
+                    <p class="mail">anannnuuu9616@gmail.com</p>
+                 </div>
+            </div>
+            <div class="logo2">
+                <i class="fa-solid fa-location-dot" style="color: #ffa914;"></i> 
+                <div class="set">
+                    <h3 class="hd">Location</h3>
+                    <p class="mail">Noida Up,India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer__bg">
+          <div class="footer__container container grid">
+            <div class="ner">
+              <h1 class="fotter__title"> Ananya</h1>
+                <span class="footer__subtitle"> Frontend Web Developer <br>Coordinator of RCGEI</span>
+                
+            </div>
+            <div class="footer__socials">
+                <a href="https://www.linkedin.com/in/ananya-gupta-8bb125247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="footer__social">
+                    <i class="fa-brands fa-linkedin-in"></i>
+              
+                </a>
+                <a href="t.me/Anna_0500" target="_blank" class="footer__social">
+                    <i class="fa-brands fa-telegram" style="color: #fefefe;"></i>
+              
+                </a>
+                <a href="https://www.instagram.com/itz_anannyaa__?igsh=N2t0djVucHg1b2hl" target="_blank" class="footer__social">
+                    <i class="fa-brands fa-instagram"></i>
+              
+                </a>
+            </div>
+              
+        </div>
+        <p class="footer__copy">Copyright© Ananya</p> 
+              
+        </div>
+        </div>
+    </footer>
 </body>
 <script src="main.js"></script>
 </html>
